@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Lora:wght@400;500;600;700&family=REM:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+.cont {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+main {
+  font-family: "Lato", sans-serif;
+  font-family: "Lora", serif;
+  font-family: "REM", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+main .head {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(111.23deg, #B5DAF3 0%, #DFEAF2 98.77%);
+}
+main .head .cont {
+  height: 100vh;
+}
+main .head .box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 100%;
+}
+main .head .box .elem {
+  width: 50%;
+}
+main .head .box .elem:nth-child(1) h1 {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 20px;
+}
+main .head .box .elem:nth-child(1) p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0em;
+  text-align: left;
+  opacity: 0.6;
+  margin-bottom: 20px;
+}
+main .head .box .elem:nth-child(1) button {
+  padding: 10px 30px;
+  background-color: #F2527D;
+  border: 0;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+main .head .box .elem:nth-child(2) {
+  height: 100%;
+}
+main .head .box .elem img {
+  height: 100%;
+}
+main .main h2 {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+main .main p {
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+  opacity: 0.6;
+  margin-bottom: 30px;
+}
+main .main .flexBloc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+main .main .flexBloc .block {
+  background: #DFEAF2;
+  width: 33%;
+  height: 450px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 50px;
+}
+main .main .flexBloc .block img {
+  width: 117px;
+  margin-bottom: 30px;
+}
+main .main .flexBloc .block h3 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 14px;
+}
+main .main .flexBloc .block P {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  opacity: 0.6;
+}
+main .main .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .main .btn button {
+  padding: 10px 30px;
+  background-color: #F2527D;
+  border: 0;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 30px;
+}
+main .myText .cont .box h3 {
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+main .myText .cont .box p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  opacity: 0.6;
+}
+main .myText .cont .box .p1 {
+  margin-bottom: 30px;
+}
+main .myText .cont .box .p2 {
+  max-width: 555px;
+}
+main .myText .cont .box .p3 {
+  margin: 100px 0;
+}
+main .textcolor {
+  padding: 40px 0;
+  background: #DFEAF2;
+}
+main .textcolor p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  opacity: 0.6;
+}
+
+footer {
+  background: #333333;
+  font-family: "Lato", sans-serif;
+  font-family: "Lora", serif;
+  font-family: "REM", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+footer .cont .box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .cont .box .block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: #fff;
+  opacity: 0.6;
+}
+footer .cont .box .block p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.modlForm {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 4;
+  top: 0;
+  left: 0;
+  font-family: "Lato", sans-serif;
+  font-family: "Lora", serif;
+  font-family: "REM", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(51, 51, 51, 0.3764705882);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  padding: 10px;
+}
+.modlForm .box {
+  max-width: 662px;
+  padding: 40px 100px;
+  background-color: #fff;
+  border-radius: 30px;
+  max-height: 90%;
+  height: -moz-fit-content;
+  height: fit-content;
+  overflow-y: auto;
+  position: relative;
+}
+.modlForm .box .close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.modlForm .box h2 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.modlForm .box h3 {
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+  opacity: 0.6;
+  margin-bottom: 20px;
+}
+.modlForm .box form input {
+  width: 100%;
+  height: 70px;
+  border: 3px solid #F2527D;
+  background-color: #B5DAF3;
+  border-radius: 30px;
+  outline: none;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.modlForm .box form #btn {
+  background: #F2527D;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  padding: 0;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modlForm .box p {
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.modlForm .box p a {
+  color: #F2527D;
+  text-decoration: none;
+}
+
+.modlFormAct {
+  display: flex;
+}
+
+@media (max-width: 940px) {
+  main .main .flexBloc {
+    flex-wrap: wrap;
+  }
+  main .main .flexBloc .block {
+    width: 45%;
+  }
+}
+@media (max-width: 880px) {
+  main .head .box {
+    position: relative;
+    justify-content: start;
+  }
+  footer .cont .box {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  main .head .box .elem:nth-child(1) {
+    z-index: 2;
+    position: relative;
+    width: 529px;
+  }
+  main .head .box .elem:nth-child(2) {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    display: none;
+  }
+}
+@media (max-width: 660px) {
+  main .main .flexBloc {
+    flex-wrap: wrap;
+  }
+  main .main .flexBloc .block {
+    width: 80%;
+  }
+}
+@media (max-width: 425px) {
+  main .main .flexBloc .block {
+    width: 100%;
+  }
+}
+@media (max-width: 375px) {
+  main .head .box .elem:nth-child(1) h1 {
+    font-size: 38px;
+  }
+  main .head .box .elem:nth-child(1) p {
+    font-size: 20px;
+  }
+  main .main h2 {
+    font-size: 36px;
+  }
+  main .main p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 560px) {
+  .modlForm .box {
+    padding: 30px;
+  }
+}/*# sourceMappingURL=style.css.map */
